@@ -1,7 +1,8 @@
 "use client"
 import { useState } from 'react';
 import Image from 'next/image';
-import logo from '../images/logo.png';
+import froggy from '../images/froggy.png';
+import lineup from '../images/lineup.png';
 import Button from './button';
 import Drawer from './drawer';
 
@@ -9,11 +10,15 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="h-screen w-screen bg-[url('/summer.png')] bg-cover bg-bottom">
+        <div className="flex flex-col gap-20 h-screen w-screen bg-[url('/summer.png')] bg-cover bg-bottom">
             <div id='header' className='container mx-auto max-w-5xl px-4 flex flex-row items-center justify-between'>
                 <div className='sm:block hidden'><Button title='shop' color='blue' url='https://opensea.io/collection/froggy-friends-2'/></div>
-                <div className='sm:block'><Image src={logo} alt='Froggy Friends' height={120}/></div>
+                <div className='sm:block'><Image className='rounded-full sm:w-32 md:w-48 w-24 p-4' src={froggy} alt='Froggy Friends' height={120}/></div>
                 <div className='sm:block'><Button title='menu' color='blue' onClick={() => setIsOpen(true)}/></div>
+            </div>
+            <p className='sm:text-7xl lg:text-8xl text-4xl text-center'>FROGGY FRIENDS</p>
+            <div className='absolute bottom-0 flex justify-center w-full'>
+                <Image src={lineup} alt='Frogs'/>
             </div>
             <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
                 <div className='flex flex-col justify-between gap-4'>
