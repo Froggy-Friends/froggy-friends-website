@@ -7,7 +7,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'hwt-artz': ['hwt-artz', 'sans-serif']
+      'hwt-artz': ['hwt-artz', 'sans-serif'],
+      'monday': ['monday', 'sans-serif'],
+      'vista-sans': ['vista-sans', 'sans-serif']
     },
     colors: {
       'dark-blue': '#154489',
@@ -39,14 +41,7 @@ module.exports = {
       'light-brown': '#ddc4a7',
       'black': '#181818',
       'white': '#fcfdfe'
-    },
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-    },
+    }
   },
   plugins: [],
 }

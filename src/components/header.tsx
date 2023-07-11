@@ -19,15 +19,15 @@ export default function Header() {
             <p className='sm:text-7xl lg:text-8xl text-4xl text-center'>
                 FROGGY FRIENDS
             </p>
-            <p className='xl:text-2xl text-lg text-center p-4'>4,444 friendly frogs spreading positivity across the pond</p>
+            <p className='font-vista-sans xl:text-2xl text-lg text-center p-4'>4,444 friendly frogs spreading positivity across the pond</p>
             <div className='absolute bottom-0 flex justify-center w-full'>
                 <Image src={lineup} alt='Frogs'/>
             </div>
             <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
                 <div className='flex flex-col justify-between gap-4'>
                     <a className='sm:text-5xl text-3xl' href='./'>Home</a>
-                    <a className='sm:text-5xl text-3xl text-light-gray' href=''>Froggy Bridge</a>
                     <a className='sm:text-5xl text-3xl'>Team</a>
+                    <a className='sm:text-5xl text-3xl text-light-gray' href=''>Froggy Bridge</a>
                     <a className='sm:block hidden sm:text-5xl text-3xl' href='https://opensea.io/collection/froggy-friends-2' target='_blank'>Shop</a>
                     <div className='sm:hidden'>
                         <button className='bg-light-green hover:bg-green transition ease-in-out delay-150 hover:translate-y-2 hover:scale-110 rounded uppercase w-full h-full p-2'>
