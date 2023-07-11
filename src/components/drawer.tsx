@@ -1,6 +1,7 @@
+import Image from 'next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
-import Button from "./button";
+import fonzy from '../images/fonzy.png';
 
 export interface DrawerProps {
     children: any;
@@ -20,16 +21,22 @@ export default function Drawer({children, isOpen, setIsOpen}: DrawerProps) {
             >
             <section
                 className={
-                " w-screen max-w-lg right-0 absolute bg-dark-blue h-full shadow-xl delay-400 duration-500 ease-in-out transition-all transform p-4" +
+                " w-screen max-w-lg right-0 absolute bg-dark-blue h-full shadow-xl delay-400 duration-500 ease-in-out transition-all transform pt-8 pl-8 pr-8" +
                 (isOpen ? " translate-x-0 " : " translate-x-full ")
                 }
             >
-                <article className="relative w-screen max-w-md pb-10 flex flex-col overflow-y-scroll h-full">
-                <header className="flex flex-row justify-between items-center w-full font-bold text-6xl">
-                    <p>Froggy Friends</p>
-                    <FontAwesomeIcon icon={faClose} size="sm" className='bg-green rounded p-2 h-8'/>
-                </header>
-                {children}
+                <article className="relative w-full h-full flex flex-col gap-10 overflow-y-scroll h-full">
+                    <header className="flex flex-row justify-between items-center w-full font-bold sm:text-6xl text-4xl pb-10">
+                        <p>Froggy Friends</p>
+                        <FontAwesomeIcon 
+                            className='bg-white text-black rounded p-2 mr-1 sm:h-8 h-6 transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 cursor-pointer'
+                            icon={faClose} 
+                            size="sm"
+                            onClick={() => setIsOpen(false)}
+                        />
+                    </header>
+                    {children}
+                    <Image className='absolute bottom-0' src={fonzy} alt='Fonzy'/>
                 </article>
             </section>
             <section

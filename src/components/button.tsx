@@ -11,7 +11,7 @@ export default function Button(props: ButtonProps) {
 
     return (
         <button className={
-            `bg-${color} hover:bg-dark-${color} transition ease-in-out delay-150 hover:translate-y-2 hover:scale-110 rounded uppercase h-full p-2`
+            `bg-${color} hover:bg-dark-${color} transition ease-in-out delay-150 hover:translate-y-2 hover:scale-110 rounded uppercase w-full h-full p-2`
         }
             onClick={onClick}
         >
