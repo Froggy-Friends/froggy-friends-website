@@ -6,6 +6,9 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      'hwt-artz': ['hwt-artz', 'sans-serif']
+    },
     colors: {
       'dark-blue': '#154489',
       'blue': '#3e6c93',
