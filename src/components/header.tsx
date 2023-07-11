@@ -1,5 +1,4 @@
 "use client"
-
 import Image from 'next/image';
 import logo from '../images/logo.png';
 import Button from './button';
@@ -12,7 +11,7 @@ export default function Header() {
     return (
         <>
             <div id='header' className='container mx-auto max-w-5xl px-4 flex flex-row items-center justify-between'>
-                <Button title='shop' color='blue' url='https://shop.froggyfriendsnft.com'/>
+                <Button title='shop' color='blue' url='https://opensea.io/collection/froggy-friends-2'/>
                 <Image src={logo} alt='Froggy Friends' height={120}/>
                 <Button title='menu' color='blue' onClick={() => {setIsOpen(!isOpen)}}/>
             </div>
@@ -20,5 +19,5 @@ export default function Header() {
                 <p>Hello World</p>
             </Drawer>
         </>
-    ) 
+    )
 }
