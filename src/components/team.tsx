@@ -11,6 +11,8 @@ import pax from '../images/pax.png';
 import colson from '../images/colson.png';
 import jasper from '../images/jasper.png';
 import zeke from '../images/zeke.png';
+import cris from '../images/cris.jpeg';
+import khela from '../images/khela.jpeg';
 
 export default function Team() {
     return (
@@ -31,6 +33,8 @@ export default function Team() {
                     <Card src={colson} name='Colson' url='https://twitter.com/heheColson' title='Collab Manager' description=''/>
                     <Card src={jasper} name='Jasper' url='https://twitter.com/jasper_cro' title='Content Creator' description=''/>
                     <Card src={zeke} name='Zeke' url='https://twitter.com/EzekielOden' title='Writer' description=''/>
+                    <Card src={cris} name='Cris' url='https://twitter.com/EAT_InSaNiTy' title='Alpha Caller' description=''/>
+                    <Card src={khela} name='Khela' url='https://twitter.com/Kh_nftcaller' title='Alpha Caller' description=''/>
                 </div>
             </div>
         </div>
