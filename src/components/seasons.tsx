@@ -15,7 +15,7 @@ export default function Seasons() {
                 <div className='flex flex-col gap-10'>
                     <p className='text-5xl'>Froggy Seasons</p>
                     <p className='font-vista-sans text-md sm:text-2xl uppercase'>
-                        Froggy Friends hosts seasons where new traits bundles are posted for sale on the Froggy Shop.
+                        Froggy Friends hosts seasons where new trait bundles are posted for sale on the Froggy Shop.
                         Holders can purchase seasonal traits using $RIBBIT tokens they earn by staking.
                     </p>
                     <p className='font-vista-sans text-md sm:text-2xl uppercase'>
