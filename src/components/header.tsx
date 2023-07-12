@@ -10,11 +10,11 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="flex flex-col gap-10 pt-2 h-screen w-screen bg-[url('/summer.png')] bg-cover bg-bottom">
+        <div className="flex flex-col gap-10 pt-2 h-screen w-screen bg-[url('/summer.jpg')] bg-cover bg-bottom">
             <div id='header' className='container mx-auto max-w-5xl px-4 flex flex-row items-center justify-between'>
-                <div className='sm:block hidden'><Button title='shop' color='blue' url='https://opensea.io/collection/froggy-friends-2'/></div>
+                <div className='sm:block hidden'><Button title='shop' url='https://opensea.io/collection/froggy-friends-2'/></div>
                 <div className='sm:block'><Image className='rounded-full md:w-32 w-24 p-4' src={froggy} alt='Froggy Friends' height={120}/></div>
-                <div className='sm:block'><Button title='menu' color='blue' onClick={() => setIsOpen(true)}/></div>
+                <div className='sm:block'><Button title='menu' onClick={() => setIsOpen(true)}/></div>
             </div>
             <p className='sm:text-7xl lg:text-8xl text-4xl text-center'>
                 FROGGY FRIENDS
