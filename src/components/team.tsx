@@ -1,8 +1,11 @@
-export default function News() {
+import Image from 'next/image';
+import fonzy from '../images/fonzy.png';
+
+export default function Team() {
     return (
         <div className='bg-light-red w-full p-8'>
             <div className='container mx-auto max-w-xl flex flex-col gap-10 items-center p-10'>
-                <p className='text-5xl'>Froggy Friends News</p>
+                <p className='text-5xl'>Froggy Friends Teams</p>
                 <p className='font-vista-sans'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

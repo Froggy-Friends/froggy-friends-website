@@ -10,7 +10,7 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="flex flex-col gap-10 pt-2 h-screen w-screen bg-[url('/summer.jpg')] bg-cover bg-bottom">
+        <div className={`flex flex-col gap-10 pt-2 h-screen w-screen bg-[url('/summer-mobile.png')] sm:bg-[url('/summer.png')] bg-cover bg-top`}>
             <div id='header' className='container mx-auto max-w-5xl px-4 flex flex-row items-center justify-between'>
                 <div className='sm:block hidden'><Button title='shop' url='https://opensea.io/collection/froggy-friends-2'/></div>
                 <div className='sm:block'><Image className='rounded-full md:w-32 w-24 p-4' src={froggy} alt='Froggy Friends' height={120}/></div>
@@ -31,8 +31,9 @@ export default function Header() {
                 <div className='flex flex-col justify-between gap-4'>
                     <a className='sm:text-5xl text-3xl' href='./'>Home</a>
                     <a className='sm:text-5xl text-3xl'>Team</a>
-                    <a className='sm:text-5xl text-3xl text-light-gray' href=''>Froggy Bridge</a>
                     <a className='sm:block hidden sm:text-5xl text-3xl' href='https://opensea.io/collection/froggy-friends-2' target='_blank'>Shop</a>
+                    <a className='sm:text-5xl text-3xl text-light-gray'>Froggy Bridge</a>
+                    <a className='sm:text-5xl text-3xl text-light-gray'>App</a>
                     <div className='sm:hidden'>
                         <button className='bg-light-green hover:bg-green transition ease-in-out delay-150 hover:translate-y-2 hover:scale-110 rounded uppercase w-full h-full p-2'>
                             <a className='text-4xl' href='https://opensea.io/collection/froggy-friends-2' target='_blank'>Buy on Opensea</a>
