@@ -8,7 +8,7 @@ export default function Welcome() {
                 <div className='flex flex-col gap-10'>
                     <p className='text-5xl'>The Pond</p>
                     <p className='font-vista-sans text-md sm:text-2xl uppercase'>
-                        The pond is home to the Froggy Friends brand and is a community of passionate individuals who believe in the mission of
+                        The pond is home to the Froggy Friends brand and has a community of passionate individuals who believe in the mission of
                         Froggy Friends to spread positivity and kindness. 
                         <br/><br/>
                         The pond consists of talented community members in art, engineering, fashion, business and many other industries. 

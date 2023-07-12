@@ -20,7 +20,7 @@ export default function Seasons() {
                     </p>
                     <p className='font-vista-sans text-md sm:text-2xl uppercase'>
                         Froggy Traits that are purchased during seasonal drops can be applied to frogs in the Froggy Studio.
-                        You can always preview your trait upgrade in our very own Build-A-Frog factory.
+                        You can choose to preview your trait upgrade in our very own Build-A-Frog factory.
                     </p>
                 </div>
             </div>
