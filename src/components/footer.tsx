@@ -1,14 +1,18 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiscord, faInstagram, faTiktok, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import Button from "./button";
+
 export default function Footer() {
     return (
         <div className='text-black w-full p-8'>
-            <div className='container mx-auto max-w-xl flex flex-col gap-10 items-center p-10'>
-                <p className='text-5xl'>Froggy Friends Footer</p>
-                <p className='font-vista-sans'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+            <div className='container mx-auto flex flex-col sm:flex-row justify-between items-center gap-10 p-10'>
+                <p className='text-3xl sm:text-5xl'>&copy; Froggy Friends 2023</p>
+                <div id='links' className='flex flex-row gap-4'>
+                    <Button title="twitter" icon={faTwitter} url="https://twitter.com/FroggyFriendNFT"/>
+                    <Button title="discord" icon={faDiscord} url="https://discord.gg/froggyfriends"/>
+                    <Button title="instagram" icon={faInstagram} url="https://www.instagram.com/froggyfriendsglobal"/>
+                    <Button title="tiktok" icon={faTiktok} url="https://www.tiktok.com/@froggyfriendsglobal"/>
+                </div>
             </div>
         </div>
     )
