@@ -18,7 +18,7 @@ export default function Team() {
     return (
         <div className='bg-light-red w-full p-8'>
             <div className='container mx-auto flex flex-col gap-20 items-center p-10'>
-                <p className='text-5xl'>Froggy Friends Teams</p>
+                <p className='text-5xl'>Froggy Friends Team</p>
                 <div className='grid grid-rows-1 sm:grid-cols-2 md:grid-cols-6 gap-10'>
                     <Card src={frogfather} name='Fonzy' title='Co-Founder & Developer' url='https://twitter.com/0xFonzy' description=''/>
                     <Card src={mango} name='Mango' title='Co-Founder & Bus. Dev' url='https://twitter.com/MayanMango' description=''/>

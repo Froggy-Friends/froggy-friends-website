@@ -11,7 +11,7 @@ export default function Companions() {
                     a staking boost.
                 </p>
                 <p className='font-vista-sans text-md sm:text-2xl uppercase'>
-                    Our genesis friend collection features five adorable companions to pair with your frog:
+                    Our genesis friend collection features six adorable companions to pair with your frog:
                     Rabbit, Red Panda, Bear, Cat, Unicorn and Golden Tiger.
                 </p>
             </div>
