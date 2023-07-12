@@ -14,7 +14,7 @@ export default function Welcome() {
                         The pond consists of talented community members in art, engineering, fashion, business and many other industries. 
                     </p>
                 </div>
-                <Image src={network} alt='Froggy Network'/>
+                <Image className='hover:animate-pulse' src={network} alt='Froggy Network'/>
             </div>
         </div>
     )
