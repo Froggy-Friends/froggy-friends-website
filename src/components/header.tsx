@@ -30,7 +30,7 @@ export default function Header() {
                     <a className='sm:text-4xl text-3xl hover:text-blue' href='https://opensea.io/collection/froggy-friends-2' target='_blank'>Shop</a>
                     <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>Froggy Bridge</a>
                     <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>App</a>
-                    <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>IP Rights</a>
+                    <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>IP Policy</a>
                     <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>Privacy Policy</a>
                 </div>
             </Drawer>
