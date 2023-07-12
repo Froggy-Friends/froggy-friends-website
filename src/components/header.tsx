@@ -28,18 +28,13 @@ export default function Header() {
                 <Image src={lineup} alt='Frogs'/>
             </div>
             <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
-                <div className='flex flex-col justify-between gap-4'>
-                    <a className='sm:text-5xl text-3xl' href='./'>Home</a>
-                    <a className='sm:text-5xl text-3xl'>Team</a>
-                    <a className='sm:block hidden sm:text-5xl text-3xl' href='https://opensea.io/collection/froggy-friends-2' target='_blank'>Shop</a>
-                    <a className='sm:text-5xl text-3xl text-light-gray'>Froggy Bridge</a>
-                    <a className='sm:text-5xl text-3xl text-light-gray'>App</a>
-                    <a className='sm:text-5xl text-3xl text-light-gray'>IP Rights</a>
-                    <div className='sm:hidden'>
-                        <button className='bg-light-green hover:bg-green transition ease-in-out delay-150 hover:translate-y-2 hover:scale-110 rounded uppercase w-full h-full p-2'>
-                            <a className='text-4xl' href='https://opensea.io/collection/froggy-friends-2' target='_blank'>Buy on Opensea</a>
-                        </button>
-                    </div>
+                <div className='flex flex-col justify-between gap-2'>
+                    <a className='sm:text-4xl text-3xl hover:text-blue' href='./'>Home</a>
+                    <a className='sm:text-4xl text-3xl hover:text-blue' href='https://opensea.io/collection/froggy-friends-2' target='_blank'>Shop</a>
+                    <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>Froggy Bridge</a>
+                    <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>App</a>
+                    <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>IP Rights</a>
+                    <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>Privacy Policy</a>
                 </div>
             </Drawer>
         </div>
