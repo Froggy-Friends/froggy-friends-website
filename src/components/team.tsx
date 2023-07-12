@@ -1,17 +1,31 @@
-import Image from 'next/image';
-import fonzy from '../images/fonzy.png';
+import Card from './card';
+import frogfather from '../images/frogfather.png';
+import mango from '../images/mango.png';
+import yummy from '../images/yummy.png';
+import ollie from '../images/ollie.png';
+import cole from '../images/cole.png';
+import will from '../images/will.png';
 
 export default function Team() {
     return (
         <div className='bg-light-red w-full p-8'>
-            <div className='container mx-auto max-w-xl flex flex-col gap-10 items-center p-10'>
+            <div className='container mx-auto flex flex-col gap-20 items-center p-10'>
                 <p className='text-5xl'>Froggy Friends Teams</p>
-                <p className='font-vista-sans'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <div className='grid grid-rows-1 sm:grid-cols-2 md:grid-cols-6 gap-10'>
+                    <Card src={frogfather} name='Fonzy' title='Co-Founder & Developer' description=''/>
+                    <Card src={mango} name='Mango' title='Co-Founder & Buss. Dev' description=''/>
+                    <Card src={yummy} name='Yummy' title='Lead Artist' description=''/>
+                    <Card src={ollie} name='Ollie' title='Community Builder' description=''/>
+                    <Card src={cole} name='Cole' title='3D Artist' description=''/>
+                    <Card src={will} name='Will' title='3D Artist' description=''/>
+
+                    <Card src={frogfather} name='Steezy' title='' description=''/>
+                    <Card src={frogfather} name='Edo' title='' description=''/>
+                    <Card src={frogfather} name='Pax' title='' description=''/>
+                    <Card src={frogfather} name='Colson' title='' description=''/>
+                    <Card src={frogfather} name='Jasper' title='' description=''/>
+                    <Card src={frogfather} name='Zeke' title='' description=''/>
+                </div>
             </div>
         </div>
     )
