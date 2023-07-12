@@ -5,6 +5,7 @@ import Team from '@/components/team';
 import Seasons from '@/components/seasons';
 import Socials from '@/components/socials';
 import Welcome from '@/components/welcome';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Socials/>
       <Team/>
       <Footer/>
+      <Analytics/>
     </main>
   )
 }
