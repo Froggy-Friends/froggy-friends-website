@@ -19,7 +19,11 @@ export default function Header() {
             <p className='sm:text-7xl lg:text-8xl text-4xl text-center'>
                 FROGGY FRIENDS
             </p>
-            <p className='font-vista-sans xl:text-2xl text-lg text-center p-4'>4,444 friendly frogs spreading positivity across the pond</p>
+            <div className='container mx-auto max-w-lg'>
+                <p className='font-vista-sans text-2xl text-center p-4'>
+                    4,444 friendly frogs spreading positivity and kindness originating on the Ethereum blockchain.
+                </p>
+            </div>
             <div className='absolute bottom-0 flex justify-center w-full'>
                 <Image src={lineup} alt='Frogs'/>
             </div>
