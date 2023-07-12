@@ -24,7 +24,7 @@ export default function Header() {
                     4,444 friendly frogs spreading positivity and kindness originating on the Ethereum blockchain.
                 </p>
             </div>
-            <div className='absolute bottom-0'>
+            <div className='flex justify-center w-full' style={{position: 'absolute', bottom: '0px'}}>
                 <Image src={lineup} alt='Frogs'/>
             </div>
             <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
