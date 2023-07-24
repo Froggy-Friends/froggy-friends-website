@@ -15,7 +15,7 @@ export default function Companions() {
                     Rabbit, Red Panda, Bear, Cat, Unicorn and Golden Tiger.
                 </p>
             </div>
-            <div className='flex'>
+            <div className='flex justify-center'>
                 <Image src={companions} alt='Frogs'/>
             </div>
         </div>
