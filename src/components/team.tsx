@@ -34,7 +34,6 @@ export default function Team() {
                     <Card src={jasper} name='Jasper' url='https://twitter.com/jasper_cro' title='Content Creator' description=''/>
                     <Card src={zeke} name='Zeke' url='https://twitter.com/EzekielOden' title='Writer' description=''/>
                     <Card src={cris} name='Cris' url='https://twitter.com/EAT_InSaNiTy' title='Alpha Caller' description=''/>
-                    <Card src={khela} name='Khela' url='https://twitter.com/Kh_nftcaller' title='Alpha Caller' description=''/>
                 </div>
             </div>
         </div>
