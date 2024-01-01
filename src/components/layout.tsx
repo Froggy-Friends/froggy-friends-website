@@ -5,15 +5,14 @@ config.autoAddCss = false;
 
 import Header from './header'
 import Footer from './footer'
+import Navbar from './navbar';
 
 export default function Layout({ children }: any) {
     return (
-        <html className='font-hwt-artz'>
-            <body>
-                <Header />
-                <main>{children}</main>
-                <Footer />
-            </body>
-        </html>
+        <div className='font-hwt-artz'>
+            <Navbar />
+            <main>{children}</main>
+            <Footer />
+        </div>
     )
 }
