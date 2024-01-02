@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord, faInstagram, faTiktok, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import Button from "./button";
 
