@@ -26,7 +26,7 @@ export default function Header() {
                 <div className='flex flex-col items-center w-full'>
                     <p className='font-vista-sans text-2xl text-center p-4'>Over <span className='text-dark-blue'>8 million views</span> on Giphy!</p>
                     <a href='https://giphy.com/froggyfriendsofficial' target='_blank'>
-                        <Image src={Giphy} alt='giphy logo' height={50} />
+                        <Image src={Giphy} alt='giphy logo' height={50} className='rounded' />
                     </a>
                 </div>
             </div>
