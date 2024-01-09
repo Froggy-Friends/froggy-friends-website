@@ -24,7 +24,7 @@ export default function Header() {
                     4,444 friendly frogs spreading positivity and kindness, originating on the Ethereum blockchain.
                 </p>
                 <div className='flex flex-col items-center w-full'>
-                    <p className='font-vista-sans text-2xl text-center p-4'>Over <span className='text-dark-blue'>8 million views</span> on Giphy!</p>
+                    <p className='font-vista-sans text-2xl text-center p-4'>Over <span className='text-dark-blue'>10 Million views</span> on Giphy!</p>
                     <a href='https://giphy.com/froggyfriendsofficial' target='_blank'>
                         <Image src={Giphy} alt='giphy logo' height={50} className='rounded' />
                     </a>
