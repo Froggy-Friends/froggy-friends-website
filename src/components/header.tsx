@@ -34,7 +34,6 @@ export default function Header() {
                 <div className='flex flex-col justify-between gap-2'>
                     <a className='sm:text-4xl text-3xl hover:text-blue' href='./'>Home</a>
                     <a className='sm:text-4xl text-3xl hover:text-blue' href='https://opensea.io/collection/froggyfriendsnft' target='_blank'>Shop</a>
-                    <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>Froggy Bridge</a>
                     <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>App</a>
                     <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>IP Policy</a>
                     <a className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed'>Privacy Policy</a>
