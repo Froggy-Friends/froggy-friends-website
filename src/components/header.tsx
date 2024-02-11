@@ -4,7 +4,6 @@ import Image from 'next/image';
 import froggy from '../images/froggy.png';
 import Button from './button';
 import Drawer from './drawer';
-import Giphy from '../images/giphy.png';
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -23,12 +22,6 @@ export default function Header() {
                 <p className='font-vista-sans text-2xl text-center p-4'>
                     4,444 friendly frogs spreading positivity and kindness, originating on the Ethereum blockchain.
                 </p>
-                <div className='flex flex-col items-center w-full'>
-                    <p className='font-vista-sans text-2xl text-center p-4'>Over <span className='text-dark-blue'>10 Million views</span> on Giphy!</p>
-                    <a href='https://giphy.com/froggyfriendsofficial' target='_blank'>
-                        <Image src={Giphy} alt='giphy logo' height={50} className='rounded' />
-                    </a>
-                </div>
             </div>
             <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
                 <div className='flex flex-col justify-between gap-2'>

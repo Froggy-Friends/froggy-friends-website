@@ -6,20 +6,22 @@ import Seasons from '@/components/seasons';
 import Socials from '@/components/socials';
 import Welcome from '@/components/welcome';
 import { Analytics } from '@vercel/analytics/react';
-import Staking from '@/components/staking';
+import Giphy from '@/components/giphy';
+import Tadpole from '@/components/tadpole';
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between text-white">
-      <Header/>
-      <Welcome/>
-      <Staking/>
-      <Companions/>
-      <Seasons/>
-      <Socials/>
-      <Team/>
-      <Footer/>
-      <Analytics/>
+      <Header />
+      <Tadpole />
+      <Giphy />
+      <Welcome />
+      <Companions />
+      <Seasons />
+      <Socials />
+      <Team />
+      <Footer />
+      <Analytics />
     </main>
   )
 }
