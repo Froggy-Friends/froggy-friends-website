@@ -25,11 +25,12 @@ export default function Tadpole() {
                                 <Link className='text-blue' href='https://www.coingecko.com/en/coins/froggy-friends' target='_blank'>Coin Gecko</Link>
                                 <Link className='text-blue' href='https://peapods.finance/app/wrap?pod=0x6A757D44a8B3cF5863a2D694040Fd1eF78616380' target='_blank'>Peapods Finance</Link>
                                 <Link className='text-blue' href='https://twitter.com/froggyfriendnft' target='_blank'>Twitter</Link>
+                                <Link className='text-blue' href='mailto: fonzy@froggylabs.com'>Email</Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
