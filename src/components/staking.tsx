@@ -1,31 +1,32 @@
 import Image from "next/image";
-import rarities from '../images/rarities.png';
-
+import Hibernation from "../images/hibernation.jpeg";
 
 export default function Staking() {
     return (
-        <div className='bg-light-purple w-full'>
-            <div className='container mx-auto max-w-3xl flex flex-col gap-10 items-center p-10 text-black'>
-                <p className='text-5xl'>Froggy $RIBBIT Staking</p>
-                <p className='font-vista-sans text-md sm:text-2xl uppercase'>
-                    Froggy Friends offers a rarity-based staking system that allows holders to stake their frogs
-                    and earn $RIBBIT tokens per day based on the rarity of their frog. 
-                </p>
-                <p className='font-vista-sans text-md sm:text-2xl uppercase'>
-                    The five rarity tiers include Common, Uncommon, Rare, Legendary, and Epic frogs. The tokens they earn
-                    per day are: 20, 30, 40, 75 and 100 $RIBBIT respectively. 
-                </p>
-                <p className='font-vista-sans text-md sm:text-2xl uppercase'>
-                    We have enabled rarity filters on marketplaces like 
-                    <a className='text-dark-blue underline pl-1 pr-1' href='https://opensea.io/collection/froggyfriendsnft' target='_blank'>Opensea</a> 
-                    so you can search froggies by rarity tier.
-                </p>
-                <p className='font-vista-sans text-md sm:text-2xl uppercase'>
-                    $RIBBIT tokens can be spent on the Froggy Shop to purchase Froggy Traits and Froggy Companions.
-                </p>
-            </div>
-            <div className='flex justify-center'>
-                <Image src={rarities} alt='rarities'/>
+        <div className='bg-light-blue w-full p-8 xl:p-24'>
+            <div className='container mx-auto max-w-6xl flex flex-col xl:flex-row gap-10 items-center sm:p-10 text-black'>
+                <div className='flex flex-col gap-10'>
+                    <p className='text-5xl'>Introducing Hibernation</p>
+                    <p className='font-vista-sans text-md sm:text-2xl uppercase'>
+                        Hibernation will be the first moment in history where you will be able to stake a ERC721 (Froggy Friend) to earn ERC404 ($TADPOLE).
+                    </p>
+                    <p className='font-vista-sans text-md sm:text-2xl uppercase'>
+                        On March 18, our two year anniversary, hibernation will launch and Froggy Friends holders will have their choice of hibernating for 30, 60, or 90 days.
+                    </p>
+                    <p className='font-vista-sans text-md sm:text-2xl uppercase'>
+                        The number of frogs you own and length of hibernation will determine your $TADPOLE staking rewards.
+                    </p>
+                    <p className='font-vista-sans text-3xl font-bold sm:text-3xl uppercase'>
+                        Hibernation Boosts
+                    </p>
+                    <p className='font-vista-sans text-md sm:text-2xl uppercase'>
+                        Froggy Friends ecosystem NFTs will serve as hibernation boosts
+                        including the Golden Lily Pad, One Year Anniversary Holder soulbound token, Froggy Minter soulbound token and the Tadpole soulbound token.
+                    </p>
+                    <div className='flex'>
+                        <Image className="rounded-md" src={Hibernation} height={500} alt='rarities' />
+                    </div>
+                </div>
             </div>
         </div>
     )
