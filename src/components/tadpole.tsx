@@ -24,6 +24,7 @@ export default function Tadpole() {
                                 <Link className='text-blue' href='https://www.dextools.io/app/en/ether/pair-explorer/0x8a8ede76cf42d31cce9b685c58c5dbfe0c8387a2?t=1707608662535' target='_blank'>Dextools</Link>
                                 <Link className='text-blue' href='https://www.coingecko.com/en/coins/froggy-friends' target='_blank'>Coin Gecko</Link>
                                 <Link className='text-blue' href='https://peapods.finance/app/wrap?pod=0x6A757D44a8B3cF5863a2D694040Fd1eF78616380' target='_blank'>Peapods Finance</Link>
+                                <Link className='text-blue' href='https://twitter.com/froggyfriendnft' target='_blank'>Twitter</Link>
                             </div>
                         </div>
                     </div>
