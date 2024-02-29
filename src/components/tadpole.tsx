@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import TadpoleImg from "../images/tadpole.png";
 import TadpolePfp from "../images/Tadpoles.png";
 
 export default function Tadpole() {
