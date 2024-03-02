@@ -7,7 +7,7 @@ export default function Footer() {
             <div className='container mx-auto flex flex-col sm:flex-row justify-between items-center gap-10 p-10'>
                 <p className='text-2xl sm:text-3xl'>&copy; Froggy Friends 2023</p>
                 <div>
-                    <Button title='Buy on Opensea' url='https://opensea.io/collection/froggyfriendsnft' />
+                    <Button title='Buy on Magic Eden' url='https://magiceden.io/collections/ethereum/0x7ad05c1b87e93be306a9eadf80ea60d7648f1b6f' />
                 </div>
                 <div id='links' className='flex flex-row gap-4'>
                     <Button title="twitter" icon={faTwitter} url="https://twitter.com/FroggyFriendNFT" />
