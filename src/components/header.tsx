@@ -22,6 +22,9 @@ export default function Header() {
                 <p className='font-vista-sans text-2xl text-center p-4'>
                     4,444 friendly frogs spreading positivity and kindness, originating on the Ethereum blockchain.
                 </p>
+                <div className='sm:block'>
+                    <Button title='HIBERNATION IS LIVE' url='https://hibernation.froggyfriends.io' />
+                </div>
             </div>
             <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
                 <div className='flex flex-col justify-between gap-2'>
