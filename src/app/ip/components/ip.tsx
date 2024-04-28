@@ -18,7 +18,7 @@ export default function IP() {
     <div className='flex flex-col items-center justify-center w-full md:max-w-[720px] max-w-[320px] h-full mx-auto flex-1 px-4 text-black pt-48 pb-32'>
       <p className='sm:text-7xl lg:text-8xl text-4xl uppercase'>IP Rights</p>
       <p>Last Updated: April 28, 2024</p>
-      <p className='self-start pt-8'>Background</p>
+      <p className='text-2xl self-start pt-8'>Background</p>
       <p className='font-vista-sans'>
         The subject of Intellectual Property (IP) rights has been an interesting
         and evolving topic in the Non-fungible Token (NFT) space. Froggy Friends

@@ -3,7 +3,7 @@ export default function Definitions() {
 
   return (
     <>
-      <p className='self-start pt-8'>1. DEFINITIONS</p>
+      <p className='text-2xl self-start pt-8'>1. DEFINITIONS</p>
       <p className='font-vista-sans py-2'>
         <strong className='font-hwt-artz'>“INTELLECTUAL PROPERTY (IP) LAW” </strong>IS A SET OF
         EXCLUSIVE RIGHTS TO EXCLUDE OTHERS FROM MAKING,
@@ -22,33 +22,28 @@ export default function Definitions() {
         LAW MAY ALSO SERVE OTHER PURPOSES, SUCH AS PROMOTING
         FAIR COMPETITION, PREVENTING CONSUMER CONFUSION, OR
         DETERRING ECONOMIC ESPIONAGE.”
-      </p>
-      <p className='font-vista-sans py-2'>
+        <br /><br />
         <strong className='font-hwt-artz'>“ART”</strong> MEANS ANY DIGITAL CREATION, ART, DESIGN, AND
         DRAWINGS CREATED BY ITS AUTHOR, AND FIRST RELEASED TO
         THE PUBLIC BY THE CREATOR, THAT MAY BE ASSOCIATED
         WITH AN NFT THAT CAN BE TRANSFERRED OR LICENSED TO AN
         OWNER (SUBJECT TO THE LIMITATIONS SET FORTH HEREIN).
-      </p>
-      <p className='font-vista-sans py-2'>
+        <br /><br />
         <strong className='font-hwt-artz'>“ATTRIBUTE”</strong> MEANS EACH AND ALL CONSTITUENT
         ELEMENTS OF THE ART, TAKEN INDEPENDENTLY OF THE
         OVERALL ART, INCLUDING DESIGNS AND PATTERNS OF THE
         BACKGROUND, APPAREL, EYES, AND SKIN TONES.
-      </p>
-      <p className='font-vista-sans py-2'>
+        <br /><br />
         <strong className='font-hwt-artz'>"NFT"</strong> MEANS ANY BLOCKCHAIN-TRACKED, NON-FUNGIBLE
         TOKEN, SUCH AS THOSE CONFORMING TO THE ERC-721
         STANDARD, ISSUED AND TRADABLE ON A BLOCKCHAIN.
-      </p>
-      <p className='font-vista-sans py-2'>
+        <br /><br />
         <strong className='font-hwt-artz'>“CREATOR”</strong> MEANS THE ENTITY WHICH RELEASED TO THE
         PUBLIC THE PURCHASED NFT, AND RELATED ART, ON BEHALF
         OF ITS AUTHOR, AND/OR ACQUIRED THOSE RIGHTS AND
         INTERESTS, I.E., FROGGY FRIENDS LLC, WITH A REGISTERED
         ADDRESS OF P.O. BOX 64101 IRVINE, CALIFORNIA USA.
-      </p>
-      <p className='font-vista-sans py-2'>
+        <br /><br />
         <strong className='font-hwt-artz'>“EFFECTIVE DATE”</strong> MEANS THE DATE ON WHICH THIS
         AGREEMENT, AS DEFINED HEREINAFTER, SHALL BE DEEMED
         ENTERING INTO FORCE, THAT IS (1) AS FOR THE PRIMARY
@@ -56,8 +51,7 @@ export default function Definitions() {
         ON THE FROGGY FRIENDS WEBSITE INITIALLY AND THEREFORE
         DEEMED ATTACHED TO THE PURCHASED NFT, AND (2) THE
         DATE OF ACQUISITION OF THE PURCHASED NFT.
-      </p>
-      <p className='font-vista-sans py-2'>
+        <br /><br />
         <strong className='font-hwt-artz'>“OWNER”</strong> MEANS THE CURRENT OWNER OF THE NFT. IN CASE
         OF TRANSFER OF OWNERSHIP, INCLUDING VIA RESALE, THE
         RECIPIENT BECOMES THE SOLE OWNER OF THE PURCHASED
@@ -65,38 +59,32 @@ export default function Definitions() {
         NFT THROUGHOUT TIME BUT ONLY ONE OWNER AT A TIME.
         OWNER SHALL INCLUDE THE PRIMARY OWNER AND ALL
         SUBSEQUENT OWNERS.
-      </p>
-      <p className='font-vista-sans py-2'>
+        <br /><br />
         <strong className='font-hwt-artz'>“OWN”</strong> MEANS, WITH RESPECT TO AN NFT, AN NFT THAT ONE
         HAS PURCHASED OR OTHERWISE RIGHTFULLY ACQUIRED
         FROM A LEGITIMATE SOURCE, WHERE PROOF OF SUCH
         PURCHASE IS RECORDED ON THE RELEVANT BLOCKCHAIN,
         THUS BECOMING THE OWNER OF THE PURCHASED NFT.
-      </p>
-      <p className='font-vista-sans py-2'>
+        <br /><br />
         <strong className='font-hwt-artz'>“PRIMARY ASSIGNMENT”</strong> MEANS THE FIRST ASSIGNMENT BY
         THE CREATOR OF THOSE CERTAIN RIGHTS, TITLE AND
         INTEREST ON THE ART TO THE PRIMARY OWNER, AS DETAILED
         IN ARTICLE 3 OF THE AGREEMENT, AS DEFINED HEREINAFTER.
-      </p>
-      <p className='font-vista-sans py-2'>
+        <br /><br />
         <strong className='font-hwt-artz'>“PRIMARY OWNER”</strong> MEANS THE INDIVIDUAL OR ENTITY
         QUALIFYING AS OWNER ON THE EFFECTIVE DATE AND PARTY
         TO THE PRIMARY ASSIGNMENT.
-      </p>
-      <p className='font-vista-sans py-2'>
+        <br /><br />
         <strong className='font-hwt-artz'>“PURCHASED NFT”</strong> MEANS AN NFT THAT ONE HAS
         PURCHASED, OR ACQUIRED IN ANY WAY, AND THUS OWNS.
-      </p>
-      <p className='font-vista-sans py-2'>
+        <br /><br />
         <strong className='font-hwt-artz'>“RESALE”</strong> MEANS THE SALE BY THE OWNER OF THE
         PURCHASED NFT, AND RIGHTS TO THE ART, TO A SUBSEQUENT
         BUYER, WHICH SHALL OWN THE PURCHASED NFT AND RIGHTS
         TO THE ART (TO THE EXTENT THE RIGHTS TO THE ART WERE
         TRANSFERABLE UPON SALE) UPON ITS EFFECTIVE PURCHASE
         AND THUS BECOME ITS NEW OWNER.
-      </p>
-      <p className='font-vista-sans py-2'>
+        <br /><br />
         <strong className='font-hwt-artz'>“SECONDARY ASSIGNMENT”</strong> MEANS, IN CASE OF RESALE, ANY
         AND ALL ASSIGNMENT BY THE OWNER OF ALL ITS RIGHTS,
         TITLE AND INTEREST IN AND TO THE INTELLECTUAL PROPERTY
