@@ -41,7 +41,7 @@ export default function Definitions() {
         <strong className='font-hwt-artz'>“CREATOR”</strong> MEANS THE ENTITY WHICH RELEASED TO THE
         PUBLIC THE PURCHASED NFT, AND RELATED ART, ON BEHALF
         OF ITS AUTHOR, AND/OR ACQUIRED THOSE RIGHTS AND
-        INTERESTS, I.E., FROGGY FRIENDS LLC, WITH A REGISTERED
+        INTERESTS, I.E., FROGGY LABS LLC, WITH A REGISTERED
         ADDRESS OF P.O. BOX 64101 IRVINE, CALIFORNIA USA.
         <br /><br />
         <strong className='font-hwt-artz'>“EFFECTIVE DATE”</strong> MEANS THE DATE ON WHICH THIS
