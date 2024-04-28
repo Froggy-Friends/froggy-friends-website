@@ -9,11 +9,13 @@ import { Analytics } from '@vercel/analytics/react';
 import Giphy from '@/components/giphy';
 import Tadpole from '@/components/tadpole';
 import Hibernation from '@/components/hibernation';
+import Banner from '@/components/banner';
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between text-white">
       <Header />
+      <Banner />
       <Hibernation />
       <Giphy />
       <Tadpole />
