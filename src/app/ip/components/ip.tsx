@@ -1,4 +1,16 @@
+import Assignment from "./assignment";
+import Compensation from "./compensation";
+import Cooperation from "./cooperation";
 import Definitions from "./definitions";
+import Governing from "./governing";
+import License from "./license";
+import Moral from "./moral";
+import Ownership from "./ownership";
+import Projects from "./projects";
+import Purpose from "./purpose";
+import Termination from "./termination";
+import Trademark from "./trademark";
+import Warranties from "./warranties";
 
 
 export default function IP() {
@@ -28,6 +40,18 @@ export default function IP() {
         understand certain common legal terms.
       </p>
       <Definitions />
+      <Purpose />
+      <Projects />
+      <License />
+      <Warranties />
+      <Termination />
+      <Ownership />
+      <Assignment />
+      <Compensation />
+      <Moral />
+      <Trademark />
+      <Cooperation />
+      <Governing />
     </div>
   )
 }
