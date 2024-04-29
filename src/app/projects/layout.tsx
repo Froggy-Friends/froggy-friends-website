@@ -16,12 +16,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className='font-hwt-artz'>
-        <Provider>
-          {children}
-        </Provider>
-      </body>
-    </html>
+    <Provider>
+      {children}
+    </Provider>
   )
 }
