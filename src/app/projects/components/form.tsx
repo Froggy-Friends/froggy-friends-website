@@ -15,12 +15,10 @@ export type IpProject = {
 
 export default function Form() {
   const { register, handleSubmit, formState: { isValid } } = useForm<IpProject>({ mode: 'onChange' });
-  const { mutate } = useMutation({ mutationFn: saveProject, onSuccess: () => { }, });
+  const { mutate } = useMutation({ mutationFn: saveProject });
 
   const onSubmit = (ipProject: IpProject) => {
-    const project = {
-      ...ipProject
-    };
+    const project = { ...ipProject };
     mutate(project);
   }
 
