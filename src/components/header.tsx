@@ -26,7 +26,7 @@ export default function Header() {
         <div className='flex flex-col justify-between gap-2'>
           <Link className='sm:text-4xl text-3xl hover:text-blue' href='/'>Home</Link>
           <Link className='sm:text-4xl text-3xl hover:text-blue' href='https://magiceden.io/collections/ethereum/0x7ad05c1b87e93be306a9eadf80ea60d7648f1b6f' target='_blank'>Shop</Link>
-          <Link className='sm:text-4xl text-3xl hover:text-blue' href='/ip'>IP Policy</Link>
+          <Link className='sm:text-4xl text-3xl hover:text-blue' href='/ip'>IP Rights</Link>
           <Link className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed' href=''>App</Link>
           <Link className='sm:text-4xl text-3xl text-light-gray cursor-not-allowed' href=''>Privacy Policy</Link>
         </div>
