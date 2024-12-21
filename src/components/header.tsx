@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container mx-auto flex justify-center items-center">
         <Image
           src="/logo.png"
-          alt="Froggy Friends Logo"
+          alt="Froggy Friends"
           width={300}
           height={120}
           className="object-contain"
