@@ -3,40 +3,30 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "hwt-artz";
-  src: url("https://use.typekit.net/af/0951ac/00000000000000007735a49b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/0951ac/00000000000000007735a49b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/0951ac/00000000000000007735a49b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-      format("opentype");
-  font-display: auto;
+  font-family: 'ProximaSoft';
+  src: url('/fonts/ProximaSoft-Regular.woff2') format('woff2'),
+       url('/fonts/ProximaSoft-Regular.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ProximaSoft';
+  src: url('/fonts/ProximaSoft-Medium.woff2') format('woff2'),
+       url('/fonts/ProximaSoft-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ProximaSoft';
+  src: url('/fonts/ProximaSoft-Bold.woff2') format('woff2'),
+       url('/fonts/ProximaSoft-Bold.woff') format('woff');
   font-weight: 700;
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "monday";
   font-style: normal;
-  font-weight: 400;
-  src: local("monday"),
-    url("https://fonts.cdnfonts.com/s/91317/MondayFeelings-7BD2l.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: "vista-sans";
-  src: url("https://use.typekit.net/af/e99728/00000000000000003b9adcff/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/e99728/00000000000000003b9adcff/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/e99728/00000000000000003b9adcff/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("opentype");
-  font-display: auto;
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
+  font-display: swap;
 }
 
 :root {
@@ -55,6 +45,7 @@
 
 body {
   height: 100%;
+  font-family: 'ProximaSoft', sans-serif;
   font-size: 16px;
   vertical-align: baseline;
   line-height: 1.6;

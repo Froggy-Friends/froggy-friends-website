@@ -7,9 +7,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      "hwt-artz": ["hwt-artz", "sans-serif"],
-      monday: ["monday", "sans-serif"],
-      "vista-sans": ["vista-sans", "sans-serif"],
+      sans: ['ProximaSoft', 'sans-serif'],
     },
     colors: {
       "dark-blue": "#154489",
