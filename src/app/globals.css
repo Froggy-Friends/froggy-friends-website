@@ -3,46 +3,33 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "hwt-artz";
-  src: url("https://use.typekit.net/af/0951ac/00000000000000007735a49b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/0951ac/00000000000000007735a49b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/0951ac/00000000000000007735a49b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-      format("opentype");
-  font-display: auto;
+  font-family: "ProximaSoft";
+  src: url("/fonts/ProximaSoft-Regular.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProximaSoft";
+  src: url("/fonts/ProximaSoft-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProximaSoft";
+  src: url("/fonts/ProximaSoft-Bold.ttf") format("truetype");
   font-weight: 700;
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "monday";
   font-style: normal;
-  font-weight: 400;
-  src: local("monday"),
-    url("https://fonts.cdnfonts.com/s/91317/MondayFeelings-7BD2l.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: "vista-sans";
-  src: url("https://use.typekit.net/af/e99728/00000000000000003b9adcff/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/e99728/00000000000000003b9adcff/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/e99728/00000000000000003b9adcff/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("opentype");
-  font-display: auto;
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
+  font-display: swap;
 }
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -55,11 +42,19 @@
 
 body {
   height: 100%;
+  font-family: "ProximaSoft", sans-serif;
   font-size: 16px;
   vertical-align: baseline;
   line-height: 1.6;
   overflow-x: hidden;
   letter-spacing: 0.025em;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 .animation-delay-500 {
@@ -80,4 +75,12 @@ body {
 
 .animation-delay-1350 {
   animation-delay: 1350ms;
+}
+
+/* Add custom styles for glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
